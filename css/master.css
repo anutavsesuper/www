@@ -1,0 +1,1340 @@
+@import "reset.css";
+
+html {
+  overflow-y: hidden;
+}
+
+body {
+  height: 100vh;
+  min-height: 100vh;
+  overflow-x: scroll;
+  background-color: #000000;
+}
+
+/* 27:20:55:10 */
+h1 {
+  position: fixed;
+  left: 60px;
+  top: -20px;
+  font-family: Jazz Gothic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 385px;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+/* ЖИРАФ */
+h2 {
+  position: fixed;
+  left: 67px;
+  top: 365px;
+  font-size: 330px;
+  letter-spacing: -0.04em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+/* НА ЧАС */
+h3 {
+  position: fixed;
+  left: 40px;
+  top: 725px;
+  font-size: 330px;
+  letter-spacing: -0.03em;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 900;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+/* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+p {
+  position: fixed;
+  width: 296px;
+  height: 263.01px;
+  right: 66px;
+  top: 415px;
+  font-size: 57px;
+  font-style: normal;
+  font-variant: normal;
+  line-height: 116.52%;
+  color: #FFFFFF;
+  z-index: 1;
+}
+
+.telo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.telo {
+  position: relative;
+  padding-left: 70px;
+  padding-right: 70px;
+  width: 3045px;
+  height: 915px;
+  top: -10px;
+  z-index: 2;
+}
+
+.logo img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  position: fixed;
+  width: 300px;
+  height: 300px;
+  left: 1550px;
+  top: 680px;
+}
+
+.one {
+  position: absolute;
+  width: 515px;
+  height: 500px;
+  left: 111px;
+  top: 16px;
+  z-index: 2;
+}
+
+.two {
+  position: absolute;
+  width: 560px;
+  height: 563px;
+  left: 790px;
+  top: 90px;
+}
+
+.three {
+  position: absolute;
+  width: 380px;
+  height: 320px;
+  left: 1402px;
+  top: -57px;
+}
+
+.four {
+  position: absolute;
+  width: 760px;
+  height: 370px;
+  left: 1232px;
+  top: 560px;
+}
+
+.five {
+  position: absolute;
+  width: 370px;
+  height: 170px;
+  left: 1961px;
+  top: 488px;
+}
+
+.six {
+  position: absolute;
+  width: 540px;
+  height: 540px;
+  left: 2539px;
+  top: 361px;
+}
+
+a {
+  outline: none;
+  border: 0;
+  text-decoration: none;
+}
+
+a svg:hover #onesvg {
+  fill: #FFC90B;
+}
+
+a svg #onesvg {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+a svg:hover #twosvg {
+  fill: #CC0093;
+}
+
+a svg #twosvg {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+a svg:hover #threesvg {
+  fill: #107500;
+}
+
+a svg #threesvg {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+
+a svg:hover #foursvg {
+  fill: #0066DD;
+}
+
+a svg #foursvg {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+a svg:hover #fivesvg {
+  fill: #FFC90B;
+}
+
+a svg #fivesvg {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+a svg:hover #sixsvg {
+  fill: #CC0093;
+}
+
+a svg #sixsvg {
+  transition: 400ms;
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 400ms;
+  -webkit-transition-timing-function: ease-in-out;
+}
+
+@media (max-width: 1920px) {
+
+  /* 27:20:55:10 */
+  h1 {
+    position: fixed;
+    left: 60px;
+    top: -50px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 385px;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 67px;
+    top: 305px;
+    font-size: 330px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 40px;
+    top: 635px;
+    font-size: 330px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 296px;
+    height: 263.01px;
+    left: 1560px;
+    top: 350px;
+    font-size: 57px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+    color: #FFFFFF;
+    z-index: 1;
+  }
+
+  .logo {
+    position: fixed;
+    width: 300px;
+    height: 300px;
+    left: 1550px;
+    top: 680px;
+  }
+}
+
+@media (max-width: 1680px) {
+
+  /* 27:20:55:10 */
+  h1 {
+    position: fixed;
+    left: 60px;
+    top: -10px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 330px;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 67px;
+    top: 365px;
+    font-size: 290px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 50px;
+    top: 725px;
+    font-size: 290px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 220px;
+    height: 260px;
+    right: 110px;
+    top: 400px;
+    font-size: 50px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    width: 260px;
+    height: 260px;
+    left: 1335px;
+    top: 765px;
+  }
+
+  .telo {
+    width: 3225px;
+    height: 975px;
+    top: 0px;
+  }
+
+  .one {
+    left: 130px;
+  }
+
+  .two {
+    width: 580px;
+    height: 533px;
+    left: 830px;
+    top: 98px;
+  }
+
+  .three {
+    left: 1480px;
+  }
+
+  .four {
+    width: 800px;
+    left: 1295px;
+    top: 590px;
+  }
+
+  .five {
+    left: 2081px;
+    top: 515px;
+  }
+
+  .six {
+    left: 2695px;
+    top: 395px
+  }
+}
+
+
+@media (max-width: 1440px) {
+
+  /* 27:20:55:10 */
+  h1 {
+    position: fixed;
+    left: 60px;
+    top: 10px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 280px;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 67px;
+    top: 320px;
+    font-size: 250px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 50px;
+    top: 615px;
+    font-size: 250px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 206px;
+    height: 190px;
+    right: 80px;
+    top: 360px;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 210px;
+    height: 210px;
+    left: 1145px;
+    top: 654px;
+  }
+
+  .telo {
+    padding-left: 60px;
+    padding-right: 60px;
+    width: 2775px;
+    height: 835px;
+    top: 0px;
+  }
+
+  .one {
+    width: 472px;
+    height: 430px;
+    left: 96px;
+    top: 13px;
+  }
+
+  .two {
+    width: 515px;
+    height: 503px;
+    left: 711px;
+    top: 79px;
+  }
+
+  .three {
+    height: 300px;
+    left: 1269px;
+    top: -59px;
+  }
+
+  .four {
+    width: 700px;
+    height: 330px;
+    left: 1117px;
+    top: 506px;
+  }
+
+  .five {
+    width: 370px;
+    left: 1760px;
+    top: 444px;
+  }
+
+  .six {
+    height: 440px;
+    left: 2284px;
+    top: 301px;
+  }
+}
+
+
+@media (max-width: 1366px) {
+
+  /* 27:20:55:10 */
+  h1 {
+    position: fixed;
+    left: 40px;
+    top: 0px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 250px;
+    letter-spacing: 0.05em;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 50px;
+    top: 280px;
+    font-size: 230px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 35px;
+    top: 510px;
+    font-size: 230px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 206px;
+    height: 190px;
+    right: 30px;
+    top: 310px;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    left: 1125px;
+    top: 545px;
+  }
+
+  .telo {
+    padding-left: 40px;
+    padding-right: 30px;
+    width: 2385px;
+    height: 715px;
+    top: -5px;
+  }
+  .one {
+    position: absolute;
+    width: 515px;
+    height: 500px;
+    left: 111px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .two {
+    position: absolute;
+    width: 560px;
+    height: 563px;
+    left: 790px;
+    top: 90px;
+  }
+
+  .three {
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    left: 1402px;
+    top: -57px;
+  }
+
+  .four {
+    position: absolute;
+    width: 760px;
+    height: 370px;
+    left: 1232px;
+    top: 560px;
+  }
+
+  .five {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 1961px;
+    top: 488px;
+  }
+
+  .six {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 2539px;
+    top: 361px;
+  }
+}
+
+
+@media (max-width: 1280px) {
+
+  /* 27:20:55:10 */
+  h1 {
+    position: fixed;
+    left: 30px;
+    top: 0px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 250px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 35px;
+    top: 260px;
+    font-size: 230px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 22px;
+    top: 505px;
+    font-size: 230px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 206px;
+    height: 190px;
+    right: 25px;
+    top: 288px;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 190px;
+    height: 190px;
+    left: 1045px;
+    top: 545px;
+  }
+
+  .telo {
+    padding-left: 30px;
+  }
+
+  .one {
+    position: absolute;
+    width: 515px;
+    height: 500px;
+    left: 111px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .two {
+    position: absolute;
+    width: 560px;
+    height: 563px;
+    left: 790px;
+    top: 90px;
+  }
+
+  .three {
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    left: 1402px;
+    top: -57px;
+  }
+
+  .four {
+    position: absolute;
+    width: 760px;
+    height: 370px;
+    left: 1232px;
+    top: 560px;
+  }
+
+  .five {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 1961px;
+    top: 488px;
+  }
+
+  .six {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 2539px;
+    top: 361px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  /* 27:20:55:10 */
+  h1 {
+    position: fixed;
+    height: 1024px;
+    width: 500px;
+    left: 30px;
+    top: 0px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 195px;
+    letter-spacing: 0.02em;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 35px;
+    top: 285px;
+    font-size: 175px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 22px;
+    top: 565px;
+    font-size: 175px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 160px;
+    height: 190px;
+    right: 40px;
+    top: 310px;
+    font-size: 30px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 160px;
+    height: 160px;
+    left: 815px;
+    top: 590px;
+  }
+  .telo {
+    padding-left: 30px;
+    padding-right: 40px;
+    width: 2355px;
+    height: 715px;
+    top: -5px;
+  }
+
+  .one {
+    position: absolute;
+    width: 515px;
+    height: 500px;
+    left: 111px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .two {
+    position: absolute;
+    width: 560px;
+    height: 563px;
+    left: 790px;
+    top: 90px;
+  }
+
+  .three {
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    left: 1402px;
+    top: -57px;
+  }
+
+  .four {
+    position: absolute;
+    width: 760px;
+    height: 370px;
+    left: 1232px;
+    top: 560px;
+  }
+
+  .five {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 1961px;
+    top: 488px;
+  }
+
+  .six {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 2539px;
+    top: 361px;
+  }
+}
+
+
+
+
+
+@media (max-width: 768px) {
+
+  /* 27:20:55:10 */
+  h4 {
+    position: fixed;
+    left: 30px;
+    top: 20px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 265px;
+    line-height: 71%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 35px;
+    top: 700px;
+    font-size: 170px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 22px;
+    top: 835px;
+    font-size: 170px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 160px;
+    height: 190px;
+    right: 205px;
+    top: 470px;
+    font-size: 40px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 210px;
+    height: 210px;
+    left: 35px;
+    top: 470px;
+  }
+
+  .telo {
+    padding-left: 35px;
+    padding-right: 40px;
+    width: 2285px;
+    height: 690px;
+    top: 155px;
+  }
+
+  .one {
+    position: absolute;
+    width: 515px;
+    height: 500px;
+    left: 111px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .two {
+    position: absolute;
+    width: 560px;
+    height: 563px;
+    left: 790px;
+    top: 90px;
+  }
+
+  .three {
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    left: 1402px;
+    top: -57px;
+  }
+
+  .four {
+    position: absolute;
+    width: 760px;
+    height: 370px;
+    left: 1232px;
+    top: 560px;
+  }
+
+  .five {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 1961px;
+    top: 488px;
+  }
+
+  .six {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 2539px;
+    top: 361px;
+  }
+
+  h1 {
+    display: none;
+  }
+}
+
+@media (max-width: 414px) {
+
+  /* 27:20:55:10 */
+  h5 {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 200px;
+    line-height: 71%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 24px;
+    top: 574px;
+    font-size: 80px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 19px;
+    top: 640px;
+    font-size: 80px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 139px;
+    height: 115px;
+    left: 193px;
+    top: 449px;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 120px;
+    height: 120px;
+    left: 275px;
+    top: 15px;
+  }
+
+  .telo {
+    padding-left: 25px;
+    padding-right: 25px;
+    width: 1485px;
+    height: 470px;
+    top: 133px;
+  }
+
+  .one {
+    position: absolute;
+    width: 515px;
+    height: 500px;
+    left: 111px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .two {
+    position: absolute;
+    width: 560px;
+    height: 563px;
+    left: 790px;
+    top: 90px;
+  }
+
+  .three {
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    left: 1402px;
+    top: -57px;
+  }
+
+  .four {
+    position: absolute;
+    width: 760px;
+    height: 370px;
+    left: 1232px;
+    top: 560px;
+  }
+
+  .five {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 1961px;
+    top: 488px;
+  }
+
+  .six {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 2539px;
+    top: 361px;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  h4 {
+    display: none;
+  }
+}
+
+@media (max-width: 375px) {
+
+  /* 27:20:55:10 */
+  h5 {
+    position: fixed;
+    left: 20px;
+    top: 10px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 220px;
+    line-height: 71%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 24px;
+    top: 640px;
+    font-size: 80px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 19px;
+    top: 710px;
+    font-size: 80px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 139px;
+    height: 115px;
+    left: 211px;
+    top: 498px;
+    font-size: 28px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    left: 245px;
+    top: 20px
+  }
+
+  .one {
+    position: absolute;
+    width: 515px;
+    height: 500px;
+    left: 111px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .two {
+    position: absolute;
+    width: 560px;
+    height: 563px;
+    left: 790px;
+    top: 90px;
+  }
+
+  .three {
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    left: 1402px;
+    top: -57px;
+  }
+
+  .four {
+    position: absolute;
+    width: 760px;
+    height: 370px;
+    left: 1232px;
+    top: 560px;
+  }
+
+  .five {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 1961px;
+    top: 488px;
+  }
+
+  .six {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 2539px;
+    top: 361px;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  h4 {
+    display: none;
+  }
+}
+
+
+@media (max-width: 320px) {
+
+  /* 27:20:55:10 */
+  h5 {
+    position: fixed;
+    left: 10px;
+    top: 10px;
+    font-family: Jazz Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 150px;
+    line-height: 71%;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+  }
+
+  /* ЖИРАФ */
+  h2 {
+    position: fixed;
+    left: 14px;
+    top: 433px;
+    font-size: 70px;
+    letter-spacing: -0.04em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* НА ЧАС */
+  h3 {
+    position: fixed;
+    left: 10px;
+    top: 490px;
+    font-size: 70px;
+    letter-spacing: -0.03em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 900;
+  }
+
+  /* ТУСОВКА 25.03.2020 ЖЕЛТАЯ Д.88 */
+  p {
+    position: fixed;
+    width: 119px;
+    height: 115px;
+    left: 141px;
+    top: 337px;
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 116.52%;
+  }
+
+  .logo {
+    position: fixed;
+    width: 120px;
+    height: 110px;
+    left: 195px;
+    top: 15px;
+  }
+
+  .telo {
+    padding-left: 13px;
+    padding-right: 13px;
+    width: 1105px;
+    height: 335px;
+  }
+
+  .one {
+    position: absolute;
+    width: 515px;
+    height: 500px;
+    left: 111px;
+    top: 16px;
+    z-index: 2;
+  }
+
+  .two {
+    position: absolute;
+    width: 560px;
+    height: 563px;
+    left: 790px;
+    top: 90px;
+  }
+
+  .three {
+    position: absolute;
+    width: 380px;
+    height: 320px;
+    left: 1402px;
+    top: -57px;
+  }
+
+  .four {
+    position: absolute;
+    width: 760px;
+    height: 370px;
+    left: 1232px;
+    top: 560px;
+  }
+
+  .five {
+    position: absolute;
+    width: 370px;
+    height: 170px;
+    left: 1961px;
+    top: 488px;
+  }
+
+  .six {
+    position: absolute;
+    width: 540px;
+    height: 540px;
+    left: 2539px;
+    top: 361px;
+  }
+
+  h1 {
+    display: none;
+  }
+
+  h4 {
+    display: none;
+  }
+}
+
+/* ;;; */
